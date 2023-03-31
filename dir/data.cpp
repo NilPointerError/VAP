@@ -33,14 +33,6 @@ public:
     bool isFull(){
         return top >= maxSize;
     }
-    T pop(){
-        if(!isEmpty()) {
-            return arr[--top];
-        }
-        // cout << "stack has no element" << endl;
-    }
-    T peek(){
-        if(!isEmpty())
-            return arr[top-1];
-    }
+
 };
+
